@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+    filter: sepia(100%);
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+a:hover {
+    background-color: #777B6F;
+}
+
+main {
+    width: 40%;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 50px;
+    margin: 5%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (min-width:290px) {
+    .content {
+        width: 50%;
+        height: 150%;
+    }
+}
